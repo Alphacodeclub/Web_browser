@@ -8,22 +8,21 @@ after typed the URL in AddressBar , we got to hit enter
 -->We have a loadCrap method that will come later on.
 but what this loadCrap method gonna do ?
 -->It get URL & read the HTML file and display it on the Screen.
-=========================GUI=========================
+==============================GUI===================================================================================================
 -->adding Addressbar in Top of the box for that we have BorderLayout to NORTH .
 -->We can put in any direction which side you want .
 Now working on Display 
 -->To not change the context of Dispay set editable method to false.
 -->To get hyperlink URLs we add the hyperlink lister that would get data of URL
 -->For event Of hyperlink we use method HyperlinkUpdater to Activated
--->
--->
--->
--->
--->
--->
--->
--->
--->
+-->Here comes LoadCrap that will get URL and Converts it to String
+=============================LoadCrap to Display On GUI============================================================================
+-->adding scroll panel & setting size using jScrollpane & SetSize method
+==============================Main method=========================================================================================
+
+-->Just make new class and create object for old class (ReadFile)
+-->Execute it 
+That's it folks.
 
 
 
