@@ -1,0 +1,29 @@
+Basically , for reading html files and the URL inherit from class JFrame.
+-->It has address bar & its gui.
+-->AddressBar is in the JTextField so you can enter text into .
+-->EditorPane has for displaying the GUI.
+-->For giving name title  i user super block that would be printed at the top of the browser.
+after typed the URL in AddressBar , we got to hit enter 
+-->That is actually an event , for that we need to add actionListener, there is a method to get data from url pass it into Actionevent
+-->We have a loadCrap method that will come later on.
+but what this loadCrap method gonna do ?
+-->It get URL & read the HTML file and display it on the Screen.
+=========================GUI=========================
+-->adding Addressbar in Top of the box for that we have BorderLayout to NORTH .
+-->We can put in any direction which side you want .
+Now working on Display 
+-->To not change the context of Dispay set editable method to false.
+-->To get hyperlink URLs we add the hyperlink lister that would get data of URL
+-->For event Of hyperlink we use method HyperlinkUpdater to Activated
+-->
+-->
+-->
+-->
+-->
+-->
+-->
+-->
+-->
+
+
+
